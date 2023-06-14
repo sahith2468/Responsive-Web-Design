@@ -1,0 +1,65 @@
+CSS
+body{
+  background-image:url(https://i.pinimg.com/originals/6c/c0/d9/6cc0d9b7364d21ea816e7e1a2cc0ed61.jpg);
+  opacity:1;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b6670;
+  color:black;
+  font-family: Tahoma;
+  font-size: 16px;
+
+}
+h1,p
+{
+  margin:1em auto;
+  text-align:center;
+}
+form{
+  width:80vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin:0 auto;
+    padding-bottom:2em;
+}
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+input,
+textarea,
+select {
+  margin:10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+.inline {
+  width: unset;
+  margin:0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+width:60%;
+  margin:1em auto;
+  height: 2em;
+  font-size: 1.2rem;
+  background-color: grey;
+  
+}

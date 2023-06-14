@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Prime Pixels</title>
+  <h1 id="title">Prime Pixels</h1>
+  <p id="description">A Photography Page For All Weddings And Birthdays</p>
+  </head>
+<body>
+<form id="survey-form">
+  <fieldset>
+    <label for="name" id="name-label">Name: <input id="name" name="name" type="text" required  placeholder="Enter Your Name"/></label>
+  
+<label for="email-label" id="email-label">E-Mail : <input type="email" id="email" placeholder="Enter Your e-mail" required></label>
+  <label for="number-label" id="number-label">Mobile Number : <input type="number" id="number" min="0" max="9" placeholder="Enter Your Number"></label>
+<label for="referrer">Will you refer to your friends or family.
+          <select id="dropdown" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">Definitely</option>
+            <option value="2">Maybe</option>
+            <option value="3">Not Sure</option>
+          </select>
+</label>
+  
+<label for="exesat">How was your experience with Prime Pixels Photography?<input id="exesat" type="radio"  class="inline" name="exesat" value="exesat" />Extremely Satisfied</label>
+<label for="sat"><input id="sat" type="radio"  class="inline" name="exesat" value="sat"/> Satisfied</label>
+<label for="fair"><input id="fair" type="radio"  class="inline" name="notsat" value="fair"/>Fair</label>
+<label for="notsat"><input id="notsat" type="radio"  class="inline" name="notsat" value="notsat" />Not Satisfied</label>
+
+How did you learn about us and our photography services?
+<label for="service">
+       <input id="service" type="checkbox" required name="service" class="inline" value="service" /> Social Media    </label>
+  <label for="service">  <input id="service" type="checkbox"  name="service" class="inline" value="service" /> Friends</label>
+  <label for="service"><input id="service" type="checkbox" value="service" class="inline" /> Relatives </label>
+  <label for="service">      <input id="service" type="checkbox" value="service" class="inline" /> Video commercial  
+ </label>
+<label for="service"> <input id="service" type="checkbox" value="service" class="inline" /> Others
+</label>
+
+<label for="bio">Do you have any other feedback, comments, or suggestions?
+          
+  <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Suggestions here"></textarea>
+      </label>
+ <input type="submit" value="Submit" id="submit" />
+  </fieldset>
+ 
+  </form>
+</body>
+
+</head>
